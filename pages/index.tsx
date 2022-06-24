@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import ExampleHome from '../components/example-home'
 import { Container } from '../styles/pages/Home'
+import filipeRet from '../public/filipe-ret.jpg'
 
 const Home: React.FC = () => {
   return (
@@ -15,6 +16,7 @@ const Home: React.FC = () => {
       <Link href="/about">
         <h2>Go to About page!</h2>
       </Link>
+      <img src={filipeRet} alt="Filipe Ret" className="ret" />
     </Container>
   )
 }
