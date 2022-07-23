@@ -12,9 +12,4 @@ export const Container = styled.div`
     font-size: 32px;
     font-weight: 700;
   }
-
-  .beck {
-    width: 25%;
-    height: 40%;
-  }
 `
